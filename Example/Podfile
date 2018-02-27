@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MKTabSwitch_Example' do
+  pod 'MKTabSwitch', :path => '../'
+
+  target 'MKTabSwitch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
