@@ -1,0 +1,16 @@
+PODS:
+  - MKTabSwitch (0.1.0)
+
+DEPENDENCIES:
+  - MKTabSwitch (from `../`)
+
+EXTERNAL SOURCES:
+  MKTabSwitch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MKTabSwitch: 5f5d9059b7f56c9db475f9fcf06b8272d06c6618
+
+PODFILE CHECKSUM: 4a2fa11c0161a2259083de8a4e299ccfad86e68d
+
+COCOAPODS: 1.4.0

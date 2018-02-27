@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		253ADC15982735D3948CE03718B2EEFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2A0BA7696F1EEBBF638F76C6252BA1C4 /* Pods-MKTabSwitch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B38A34168A9BDA19E6064B473A07EE7 /* Pods-MKTabSwitch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3958749CD828D96F3EC5BC2E409EDF91 /* Pods-MKTabSwitch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FF793C83330630564795DB0EAF20E1 /* Pods-MKTabSwitch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C9661724E891C30871774BD5592926B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		67917ECD2A989D0472869A9B73BC75DF /* MKTabSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C80AC3C668F4DE9D99DD87F5EE7AB5B /* MKTabSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6988F4BBC8729FEA615F3DBA7AE746C9 /* Pods-MKTabSwitch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36590D778DB12B03E7F8434CFA33D7C1 /* Pods-MKTabSwitch_Example-dummy.m */; };
+		7B61DF0DDC0F5E70F5AF2FCCF023ADB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9D2F010B2044FDC20017C9E8 /* TabSwitchAnimationEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F01092044FDC20017C9E8 /* TabSwitchAnimationEntity.m */; };
+		A90AC3DEE358D51C5CAEB320FCA1A5A8 /* Pods-MKTabSwitch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C184FEE2592F2476A12ADA4C96A9D /* Pods-MKTabSwitch_Tests-dummy.m */; };
+		D9478EAF1371CFE4FBABAD18C7407171 /* MKTabSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D47F2DE6F607C517BD01EFDCF29E110C /* MKTabSwitch-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FC997025E6C0A85EB8EE622AB2B6C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EB709FD221508B9984768DC1C70A93A;
+			remoteInfo = MKTabSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BF30A82A96DDD6888182AE85AE5187 /* Pods_MKTabSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKTabSwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		058291608BEB0C483B87EF389D531C26 /* Pods-MKTabSwitch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKTabSwitch_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0A8F173C71EF240377BAC409B4E9C97C /* Pods-MKTabSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKTabSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		295AD096C7BD6B948214B0A2A75313CB /* Pods_MKTabSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKTabSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FDD6E9ECD2CF9590922D448F19ADEB4 /* Pods-MKTabSwitch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MKTabSwitch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35AD98AF74E2C46D956AA3B624C5E2C0 /* MKTabSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKTabSwitch.xcconfig; sourceTree = "<group>"; };
+		36590D778DB12B03E7F8434CFA33D7C1 /* Pods-MKTabSwitch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKTabSwitch_Example-dummy.m"; sourceTree = "<group>"; };
+		3B1D78861121B9B7E92BFB3080C8C22B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4B7949B7D029B11357891A00D90B37BD /* Pods-MKTabSwitch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKTabSwitch_Tests-resources.sh"; sourceTree = "<group>"; };
+		543C184FEE2592F2476A12ADA4C96A9D /* Pods-MKTabSwitch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKTabSwitch_Tests-dummy.m"; sourceTree = "<group>"; };
+		5BB447360FA2AABFE4400EA2312799FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623102927BA56359EFB726D61E83C66B /* Pods-MKTabSwitch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MKTabSwitch_Example.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BBD386F8B5D8FC1DD1A4449FB1A5E2B /* MKTabSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKTabSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C80AC3C668F4DE9D99DD87F5EE7AB5B /* MKTabSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKTabSwitch-umbrella.h"; sourceTree = "<group>"; };
+		708F880590642D4E431F105E420640CC /* Pods-MKTabSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKTabSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7158ACBA6CA6761A18221A6182A6F762 /* Pods-MKTabSwitch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MKTabSwitch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72D8DE72386D3C79D586CEA4B6940FF0 /* Pods-MKTabSwitch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MKTabSwitch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B38A34168A9BDA19E6064B473A07EE7 /* Pods-MKTabSwitch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MKTabSwitch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		861C4BD4E2E2FBA1B7D1C0AAA5BBFF06 /* Pods-MKTabSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKTabSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		88FD584C871EA699A57339B662728ACD /* MKTabSwitch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MKTabSwitch.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D2F01062044FD640017C9E8 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		9D2F01092044FDC20017C9E8 /* TabSwitchAnimationEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabSwitchAnimationEntity.m; sourceTree = "<group>"; };
+		9D2F010A2044FDC20017C9E8 /* TabSwitchAnimationEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabSwitchAnimationEntity.h; sourceTree = "<group>"; };
+		A5FF793C83330630564795DB0EAF20E1 /* Pods-MKTabSwitch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MKTabSwitch_Example-umbrella.h"; sourceTree = "<group>"; };
+		B0ED9B27542756B075BB9317697F5F0F /* Pods-MKTabSwitch_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKTabSwitch_Example-resources.sh"; sourceTree = "<group>"; };
+		BE2CA76CF1C93A4C90E5D9BE187B7B09 /* MKTabSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MKTabSwitch.modulemap; sourceTree = "<group>"; };
+		C597567B14A0779871E336BA44CD2FA6 /* Pods-MKTabSwitch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKTabSwitch_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CF169784054EB05851563FC99501AEBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D024F1F1981D4DE65A48B6971F1386F9 /* Pods-MKTabSwitch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MKTabSwitch_Tests.modulemap"; sourceTree = "<group>"; };
+		D315C0731F19FB631724C5CF19E1136A /* MKTabSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKTabSwitch-prefix.pch"; sourceTree = "<group>"; };
+		D47F2DE6F607C517BD01EFDCF29E110C /* MKTabSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKTabSwitch-dummy.m"; sourceTree = "<group>"; };
+		D9292B708B74B7EE9836053A3C2DAA83 /* Pods-MKTabSwitch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MKTabSwitch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E162A0C56F65107D2788DCD4BD569809 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1141A8FB4A7ACACDCD63CD71C2DB354 /* Pods-MKTabSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKTabSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F56330C3785A96F284FF2FD2B89090FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B78A2D3212F562348AB482BC4405D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9661724E891C30871774BD5592926B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76133544A401FCB735D9E06E1DAD4CE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253ADC15982735D3948CE03718B2EEFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB82A2C18638B7014A96115515036A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B61DF0DDC0F5E70F5AF2FCCF023ADB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		437E781BDF0362D495FB4735920FBC7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BB447360FA2AABFE4400EA2312799FA /* Info.plist */,
+				BE2CA76CF1C93A4C90E5D9BE187B7B09 /* MKTabSwitch.modulemap */,
+				35AD98AF74E2C46D956AA3B624C5E2C0 /* MKTabSwitch.xcconfig */,
+				D47F2DE6F607C517BD01EFDCF29E110C /* MKTabSwitch-dummy.m */,
+				D315C0731F19FB631724C5CF19E1136A /* MKTabSwitch-prefix.pch */,
+				6C80AC3C668F4DE9D99DD87F5EE7AB5B /* MKTabSwitch-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MKTabSwitch";
+			sourceTree = "<group>";
+		};
+		4529EBBC9608E8282D01EF7AA0F18634 /* MKTabSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				9D2F01052044FD640017C9E8 /* Classes */,
+				DE84485B22F83D0542FAA6C9CB135A90 /* Pod */,
+				437E781BDF0362D495FB4735920FBC7B /* Support Files */,
+			);
+			name = MKTabSwitch;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4AD37BC4F0F26C36A203E3B1A9D1BA43 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4529EBBC9608E8282D01EF7AA0F18634 /* MKTabSwitch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4AD37BC4F0F26C36A203E3B1A9D1BA43 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C15B5BB64DEF4C778AEF97DB4F14EBC3 /* Products */,
+				9F7E916097900E8A7ECEC1146284774C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D2F01052044FD640017C9E8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D2F010A2044FDC20017C9E8 /* TabSwitchAnimationEntity.h */,
+				9D2F01092044FDC20017C9E8 /* TabSwitchAnimationEntity.m */,
+				9D2F01062044FD640017C9E8 /* .gitkeep */,
+			);
+			name = Classes;
+			path = MKTabSwitch/Classes;
+			sourceTree = "<group>";
+		};
+		9F7E916097900E8A7ECEC1146284774C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E66E44AE8067DCFBD10FEB9F106D5997 /* Pods-MKTabSwitch_Example */,
+				C18E6EEB7EEE9B913C167A2C4F4B26E9 /* Pods-MKTabSwitch_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C15B5BB64DEF4C778AEF97DB4F14EBC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BBD386F8B5D8FC1DD1A4449FB1A5E2B /* MKTabSwitch.framework */,
+				04BF30A82A96DDD6888182AE85AE5187 /* Pods_MKTabSwitch_Example.framework */,
+				295AD096C7BD6B948214B0A2A75313CB /* Pods_MKTabSwitch_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C18E6EEB7EEE9B913C167A2C4F4B26E9 /* Pods-MKTabSwitch_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E162A0C56F65107D2788DCD4BD569809 /* Info.plist */,
+				D024F1F1981D4DE65A48B6971F1386F9 /* Pods-MKTabSwitch_Tests.modulemap */,
+				D9292B708B74B7EE9836053A3C2DAA83 /* Pods-MKTabSwitch_Tests-acknowledgements.markdown */,
+				2FDD6E9ECD2CF9590922D448F19ADEB4 /* Pods-MKTabSwitch_Tests-acknowledgements.plist */,
+				543C184FEE2592F2476A12ADA4C96A9D /* Pods-MKTabSwitch_Tests-dummy.m */,
+				058291608BEB0C483B87EF389D531C26 /* Pods-MKTabSwitch_Tests-frameworks.sh */,
+				4B7949B7D029B11357891A00D90B37BD /* Pods-MKTabSwitch_Tests-resources.sh */,
+				7B38A34168A9BDA19E6064B473A07EE7 /* Pods-MKTabSwitch_Tests-umbrella.h */,
+				F1141A8FB4A7ACACDCD63CD71C2DB354 /* Pods-MKTabSwitch_Tests.debug.xcconfig */,
+				861C4BD4E2E2FBA1B7D1C0AAA5BBFF06 /* Pods-MKTabSwitch_Tests.release.xcconfig */,
+			);
+			name = "Pods-MKTabSwitch_Tests";
+			path = "Target Support Files/Pods-MKTabSwitch_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DE84485B22F83D0542FAA6C9CB135A90 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D78861121B9B7E92BFB3080C8C22B /* LICENSE */,
+				88FD584C871EA699A57339B662728ACD /* MKTabSwitch.podspec */,
+				CF169784054EB05851563FC99501AEBC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E66E44AE8067DCFBD10FEB9F106D5997 /* Pods-MKTabSwitch_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F56330C3785A96F284FF2FD2B89090FF /* Info.plist */,
+				623102927BA56359EFB726D61E83C66B /* Pods-MKTabSwitch_Example.modulemap */,
+				7158ACBA6CA6761A18221A6182A6F762 /* Pods-MKTabSwitch_Example-acknowledgements.markdown */,
+				72D8DE72386D3C79D586CEA4B6940FF0 /* Pods-MKTabSwitch_Example-acknowledgements.plist */,
+				36590D778DB12B03E7F8434CFA33D7C1 /* Pods-MKTabSwitch_Example-dummy.m */,
+				C597567B14A0779871E336BA44CD2FA6 /* Pods-MKTabSwitch_Example-frameworks.sh */,
+				B0ED9B27542756B075BB9317697F5F0F /* Pods-MKTabSwitch_Example-resources.sh */,
+				A5FF793C83330630564795DB0EAF20E1 /* Pods-MKTabSwitch_Example-umbrella.h */,
+				0A8F173C71EF240377BAC409B4E9C97C /* Pods-MKTabSwitch_Example.debug.xcconfig */,
+				708F880590642D4E431F105E420640CC /* Pods-MKTabSwitch_Example.release.xcconfig */,
+			);
+			name = "Pods-MKTabSwitch_Example";
+			path = "Target Support Files/Pods-MKTabSwitch_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		413B47BFD69054DA39FE8EAEEEB228DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3958749CD828D96F3EC5BC2E409EDF91 /* Pods-MKTabSwitch_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B363ADAE4773CF2D3EF913A60E2F4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67917ECD2A989D0472869A9B73BC75DF /* MKTabSwitch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2F8736A443C594CE856F0EAB69EFD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0BA7696F1EEBBF638F76C6252BA1C4 /* Pods-MKTabSwitch_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2EB709FD221508B9984768DC1C70A93A /* MKTabSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2782E833A080289085FDADAFE1BB3AF /* Build configuration list for PBXNativeTarget "MKTabSwitch" */;
+			buildPhases = (
+				C091F293D375A772DA977E81A2035DFB /* Sources */,
+				76133544A401FCB735D9E06E1DAD4CE3 /* Frameworks */,
+				57B363ADAE4773CF2D3EF913A60E2F4C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKTabSwitch;
+			productName = MKTabSwitch;
+			productReference = 6BBD386F8B5D8FC1DD1A4449FB1A5E2B /* MKTabSwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3964111A5D657EE1AB80E22264359B7E /* Pods-MKTabSwitch_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC5D64397DD0268D1A0927B313B8F91 /* Build configuration list for PBXNativeTarget "Pods-MKTabSwitch_Example" */;
+			buildPhases = (
+				25F8C3534ECE33EC495E708F056FDCFD /* Sources */,
+				3B78A2D3212F562348AB482BC4405D75 /* Frameworks */,
+				413B47BFD69054DA39FE8EAEEEB228DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C23FBDD0EE50BC1923FA90ADE50138DE /* PBXTargetDependency */,
+			);
+			name = "Pods-MKTabSwitch_Example";
+			productName = "Pods-MKTabSwitch_Example";
+			productReference = 04BF30A82A96DDD6888182AE85AE5187 /* Pods_MKTabSwitch_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD02A5362BA475E5B3E01B086F7522BB /* Pods-MKTabSwitch_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24D7698D2AC9674D8F49B776A9D713D /* Build configuration list for PBXNativeTarget "Pods-MKTabSwitch_Tests" */;
+			buildPhases = (
+				47B7BD52D9F78DB13E231927B3188A4D /* Sources */,
+				8CB82A2C18638B7014A96115515036A9 /* Frameworks */,
+				FA2F8736A443C594CE856F0EAB69EFD1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MKTabSwitch_Tests";
+			productName = "Pods-MKTabSwitch_Tests";
+			productReference = 295AD096C7BD6B948214B0A2A75313CB /* Pods_MKTabSwitch_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C15B5BB64DEF4C778AEF97DB4F14EBC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EB709FD221508B9984768DC1C70A93A /* MKTabSwitch */,
+				3964111A5D657EE1AB80E22264359B7E /* Pods-MKTabSwitch_Example */,
+				BD02A5362BA475E5B3E01B086F7522BB /* Pods-MKTabSwitch_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25F8C3534ECE33EC495E708F056FDCFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6988F4BBC8729FEA615F3DBA7AE746C9 /* Pods-MKTabSwitch_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B7BD52D9F78DB13E231927B3188A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90AC3DEE358D51C5CAEB320FCA1A5A8 /* Pods-MKTabSwitch_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C091F293D375A772DA977E81A2035DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2F010B2044FDC20017C9E8 /* TabSwitchAnimationEntity.m in Sources */,
+				D9478EAF1371CFE4FBABAD18C7407171 /* MKTabSwitch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C23FBDD0EE50BC1923FA90ADE50138DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKTabSwitch;
+			target = 2EB709FD221508B9984768DC1C70A93A /* MKTabSwitch */;
+			targetProxy = 0FC997025E6C0A85EB8EE622AB2B6C7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05A2927FF84AAB41EACDABA74EAF640E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708F880590642D4E431F105E420640CC /* Pods-MKTabSwitch_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MKTabSwitch_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKTabSwitch_Example/Pods-MKTabSwitch_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MKTabSwitch_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		45DEC61F267CB97EE48639CB6A1E0B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1141A8FB4A7ACACDCD63CD71C2DB354 /* Pods-MKTabSwitch_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MKTabSwitch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKTabSwitch_Tests/Pods-MKTabSwitch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MKTabSwitch_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7453382E0B584037C3FD18242414FFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 861C4BD4E2E2FBA1B7D1C0AAA5BBFF06 /* Pods-MKTabSwitch_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MKTabSwitch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKTabSwitch_Tests/Pods-MKTabSwitch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MKTabSwitch_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7925C7C52DAACC740330B699F1C9A086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AD98AF74E2C46D956AA3B624C5E2C0 /* MKTabSwitch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MKTabSwitch/MKTabSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKTabSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKTabSwitch/MKTabSwitch.modulemap";
+				PRODUCT_NAME = MKTabSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9B67F24C21367A59C1A02B7387F70A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8F173C71EF240377BAC409B4E9C97C /* Pods-MKTabSwitch_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MKTabSwitch_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKTabSwitch_Example/Pods-MKTabSwitch_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MKTabSwitch_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA10129AE192FADE8D8129FE1F8CE321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AD98AF74E2C46D956AA3B624C5E2C0 /* MKTabSwitch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MKTabSwitch/MKTabSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKTabSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKTabSwitch/MKTabSwitch.modulemap";
+				PRODUCT_NAME = MKTabSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC5D64397DD0268D1A0927B313B8F91 /* Build configuration list for PBXNativeTarget "Pods-MKTabSwitch_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B67F24C21367A59C1A02B7387F70A9 /* Debug */,
+				05A2927FF84AAB41EACDABA74EAF640E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24D7698D2AC9674D8F49B776A9D713D /* Build configuration list for PBXNativeTarget "Pods-MKTabSwitch_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DEC61F267CB97EE48639CB6A1E0B17 /* Debug */,
+				7453382E0B584037C3FD18242414FFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2782E833A080289085FDADAFE1BB3AF /* Build configuration list for PBXNativeTarget "MKTabSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7925C7C52DAACC740330B699F1C9A086 /* Debug */,
+				DA10129AE192FADE8D8129FE1F8CE321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
