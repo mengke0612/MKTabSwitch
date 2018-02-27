@@ -42,6 +42,9 @@ typedef NS_ENUM(NSInteger,TabOperationDirection) {
     
     self=[super init];
     if (self) {
+        
+        NSAssert([vc isKindOfClass:NSClassFromString(@"UITabBarController")], @"rootvc must be instance of UITabBarController Class");
+        
         rootGesture =[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(ScreenEdgePanGestureEvent:)];
         self.rootVC=vc;
         self.rootVC.view.userInteractionEnabled=YES;
