@@ -3,20 +3,20 @@
   "version": "0.1.0",
   "summary": "A short description of MKTabSwitch.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/iOS_MK/MKTabSwitch",
+  "homepage": "https://github.com/mengke0612/MKTabSwitch",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "iOS_MK": "578597526@qq.com"
+    "mengke": "578597526@qq.com"
   },
   "source": {
-    "git": "https://github.com/iOS_MK/MKTabSwitch.git",
+    "git": "https://github.com/mengke0612/MKTabSwitch.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MKTabSwitch/Classes/**/*"
+  "source_files": "MKTabSwitch/**/*"
 }

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TabSwitchAnimationEntity.h"
 
 FOUNDATION_EXPORT double MKTabSwitchVersionNumber;
 FOUNDATION_EXPORT const unsigned char MKTabSwitchVersionString[];
