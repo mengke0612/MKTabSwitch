@@ -1,5 +1,5 @@
 PODS:
-  - MKTabSwitch (0.1.0)
+  - MKTabSwitch (0.1.2)
 
 DEPENDENCIES:
   - MKTabSwitch (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MKTabSwitch: 6182b1a58f5a3d77a83304efa9378ecd2ded403a
+  MKTabSwitch: c1e99249dddbb15eb076c424ed729bceff14d7dd
 
 PODFILE CHECKSUM: 4a2fa11c0161a2259083de8a4e299ccfad86e68d
 

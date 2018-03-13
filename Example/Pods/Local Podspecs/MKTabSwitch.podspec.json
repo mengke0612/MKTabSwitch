@@ -1,7 +1,7 @@
 {
   "name": "MKTabSwitch",
-  "version": "0.1.0",
-  "summary": "A short description of MKTabSwitch.",
+  "version": "0.1.2",
+  "summary": "左右切换tab",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/mengke0612/MKTabSwitch",
   "license": {
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/mengke0612/MKTabSwitch.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MKTabSwitch/**/*"
+  "source_files": "MKTabSwitch/*"
 }
